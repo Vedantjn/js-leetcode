@@ -8,7 +8,7 @@ function chunk(arr: Obj[], size: number): Obj[][] {
     while (i < arr.length) {
         result.push(arr.slice(i, i + size));
         i += size;
-    }
+    } 
 
     return result;
 }
